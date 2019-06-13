@@ -1,0 +1,2 @@
+[26-Jan-2019 11:01:51 UTC] PHP Warning:  require(phpmailer/PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/izft4maqzd48/public_html/contactform/contactformmail.php on line 2
+[26-Jan-2019 11:01:51 UTC] PHP Fatal error:  require(): Failed opening required 'phpmailer/PHPMailerAutoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home/izft4maqzd48/public_html/contactform/contactformmail.php on line 2
