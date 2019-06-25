@@ -53,15 +53,41 @@ jQuery(document).ready(function ($) {
       }
     );
 
-    if ($(window).width() > 900) {
-        //debugger;
-      var paddingleft = ($(window).width() / 100) * 0.94;
-      $(".mega-menu-area").css("padding-left", paddingleft + "em");
-    }
+    // if ($(window).width() > 900) {
+        // //debugger;
+      // var paddingleft = ($(window).width() / 100) * 0.94;
+      // $(".mega-menu-area").css("padding-left", paddingleft + "em");
+    // }
+	
+	
+	
+	// 14 and 15 inch 1007 
+	
+	if ($(window).width() > 900 &&  $(window).width() <1024 ) {
+		$(".mega-menu-area").css("padding-left",	"30px");
+		$(".single-mega-item").css("width","11em");
+	}
+	// 14 and 15 inch 1349 
+	if ($(window).width() > 1300 &&  $(window).width() <1400 ) {
+		$(".mega-menu-area").css("padding-left",	"145px");
+	}
+	if ($(window).width() > 1200 &&  $(window).width() <1300 ) {
+		$(".mega-menu-area").css("padding-left",	"120px");
+		
+	}
+
+	
+	
+	
+	
+	
 
 
 
   });
+  // 1349/100 =150*9
+  //
+  
   // Menu
   //   $(".panel a").click(function(e) {
   //     e.preventDefault();
